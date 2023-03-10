@@ -4,15 +4,15 @@ stages:
     cmd: python py_code.py
     deps:
     - path: Iris.csv
-      md5: 8aaca2020776d4fc88141ae240d23964
-      size: 4672
+      md5: a417e6e92014304c6af64cfa9340d545
+      size: 4439
     - path: py_code.py
-      md5: 3712022fe131805218926b47761a4773
-      size: 2284
+      md5: 4f19a77f89d90552ecc511ab7cddad21
+      size: 2290
     outs:
     - path: models\Decision_Tree_model
-      md5: 672805fa8193b20d012dbf99f2124352
-      size: 1425
+      md5: 1fdc6c5b3584e33d9a54a580c13a98e0
+      size: 1588
     - path: models\Random_Forest_model
-      md5: dab64d10f806066cee113de841741989
-      size: 53761
+      md5: 3cf22cf6256d34349ab4f31fc01275e8
+      size: 72766

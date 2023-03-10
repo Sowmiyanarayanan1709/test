@@ -15,7 +15,7 @@ y = df['Species']
 
 X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.3, random_state=7)
 
-model_rf = RandomForestClassifier(ccp_alpha=0.8, min_samples_split=10, criterion='entropy')
+model_rf = RandomForestClassifier(ccp_alpha=0.2345, min_samples_split=10, criterion='entropy')
 model_rf.fit(X_train,y_train)
 
 filename = 'C:\\Users\\s123\\Desktop\\test\\models\\Random_Forest_model'
@@ -38,7 +38,7 @@ df_rf.insert(0,'model_name','Random Forest_'+str(git_count))
 df_rf = df_rf.reindex(columns = ['model_name','Number of rows','ccp_alpha', 'criterion', 'min_impurity_decrease','min_samples_split', 'Accuracy'])
 df_rf.to_csv("C:\\Users\\s123\\Desktop\\test\\parameters.csv",mode = 'a', index=False, header = False)
 
-model_dt = DecisionTreeClassifier(ccp_alpha=0.8, min_samples_split=10, criterion='entropy')
+model_dt = DecisionTreeClassifier(ccp_alpha=0.2345, min_samples_split=10, criterion='entropy')
 model_dt.fit(X_train,y_train)
 
 filename='C:\\Users\\s123\\Desktop\\test\\models\\Decision_Tree_model'
