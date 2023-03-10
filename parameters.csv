@@ -3,3 +3,5 @@ Random Forest_1,150,0.3,gini,0.0,10,1.0
 Decision Tree_1,150,0.3,gini,0.0,10,1.0
 Random Forest_2,137,0.3,gini,0.0,10,1.0
 Decision Tree_2,137,0.3,gini,0.0,10,1.0
+Random Forest_3,137,0.8,gini,0.0,10,0.23809523809523808
+Decision Tree_3,137,0.8,gini,0.0,10,0.23809523809523808
