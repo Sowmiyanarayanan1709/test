@@ -1,1 +1,9 @@
-model_name,ccp_alpha,criterion,min_impurity_decrease,min_samples_split,Accuracy
+model_name,number of rows,ccp_alpha,criterion,min_impurity_decrease,min_samples_split,Accuracy
+Random Forest_1,150,0.3,gini,0.0,10,1.0
+Decision Tree_1,150,0.3,gini,0.0,10,1.0
+Random Forest_2,137,0.3,gini,0.0,10,1.0
+Decision Tree_2,137,0.3,gini,0.0,10,1.0
+Random Forest_3,137,0.8,gini,0.0,10,0.23809523809523808
+Decision Tree_3,137,0.8,gini,0.0,10,0.23809523809523808
+Random Forest_4,137,0.8,entropy,0.0,10,0.5238095238095238
+Decision Tree_4,137,0.8,entropy,0.0,10,0.5238095238095238
